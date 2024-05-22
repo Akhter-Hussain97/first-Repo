@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #58743b;
+}
+.container{
+    height:90vh;
+     align-items: center;
+     justify-content: center;
+      display: flex;
+      flex-direction: column;
+}
+.new{
+    margin-bottom: 1rem;
+    padding:15px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color:#905058;
+}
+.reset{
+   margin-top: 1rem;
+   padding:15px;
+   font-size: 1.5rem;
+   border-radius: 10px;
+   background-color:#905058;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    gap:1.5vmin;
+}
+.box{
+    width:18vmin;
+    height:18vmin;
+    border: none;
+    color:#de4f00;
+    box-shadow: 0 0 1rem rgb(0,0,0.1);
+    border-radius: 10px;
+    font-size: 3.5rem;
+    background-color: #463f04;
+}
+.hd{
+    margin-bottom: 1rem;
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      font-size: 3rem;
+     color:#000011;
+}
+.msg-container{
+    text-align: center;
+    font-size: 3rem;
+    color:#0c68d9c9;
+}
+.hide{
+    display: none;
+}
+
+
